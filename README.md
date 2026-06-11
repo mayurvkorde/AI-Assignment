@@ -242,6 +242,7 @@ env_assignment\Scripts\activate
 ### Install Dependencies
 
 ```bash
+cd AI-Assignment
 pip install -r requirements.txt
 ```
 
