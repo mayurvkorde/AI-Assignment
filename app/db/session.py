@@ -6,11 +6,10 @@ AsyncSession,
 async_sessionmaker,
 create_async_engine
 )
-from app.config.config import config
 
 
 async_db_engine: AsyncEngine = create_async_engine(
-    config.RDS_ASYNC_URI,
+    "",
     echo=False,
     pool_size=40,
     max_overflow=20,

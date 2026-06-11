@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
 import uvicorn
-from app.config.config import config
 from app.api.v1 import api_router
 from app.config.constant import API_PREFIX, MODEL_NAME
 import logging
@@ -57,5 +56,5 @@ if __name__ == "__main__":
         "main:app",
         host="0.0.0.0",
         reload=True,
-        port=config.PORT,
+        port=80000,
     )

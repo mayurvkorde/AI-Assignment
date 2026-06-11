@@ -1,7 +1,6 @@
 # Virtual environment
 env_assignment/
 venv/
-.env/
 .venv/
 
 # Python cache
